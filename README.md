@@ -120,33 +120,4 @@ D2Admin is a fully open source and free enterprise back-end product front-end in
 | **Aooms** | Spring Cloud | [Gitee](https://gitee.com/cyb-javaer/Aooms) | [Preview](https://www.yuboon.com/Aooms) | Extremely fast microservice development, not just as simple as JFinal |
 | **GOA** | Beego | [Github](https://github.com/Qsnh/goa) | [Preview](http://goaio.vip/) | Online question answering system based on Beego + Vue |
 
-## Badge
 
-If your open source project is based on D2Admin development, please add the following badge to your README:
-
-<a href="https://github.com/d2-projects/d2-admin" target="_blank">
-	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200">
-</a>
-
-Copy the following code into the README to:
-
-``` html
-<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200"></a>
-```
-
-At the same time, you can report your project to us. We will place the excellent project in D2Admin and help you publicize it.
-
-## Important Contributor
-
-* [@FairyEver](https://github.com/FairyEver)
-* [@sunhaoxiang](https://github.com/sunhaoxiang)
-* [@Aysnine](https://github.com/Aysnine)
-* [@han-feng](https://github.com/han-feng)
-* [@rongxingsun](https://github.com/rongxingsun)
-* [@dnyz520](https://github.com/dnyz520)
-
-## License
-
-[MIT](https://github.com/d2-projects/d2-admin/blob/master/LICENSE)
-
-Copyright (c) 2018-present FairyEver

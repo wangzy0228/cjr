@@ -126,41 +126,6 @@
 | Aooms | Spring Cloud | [码云](https://gitee.com/cyb-javaer/Aooms) | [预览](https://www.yuboon.com/Aooms) | 极速微服务开发，不止像JFinal一样简单 |
 | GOA | Beego | [Github](https://github.com/Qsnh/goa) | [预览](http://goaio.vip/) | 基于 Beego + Vue 开发的在线问答系统 |
 
-## 徽章
 
-如果您的开源项目基于 D2Admin 开发，请在您的 README 添加下面的徽章：
 
-<a href="https://github.com/d2-projects/d2-admin" target="_blank">
-	<img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200">
-</a>
 
-复制下面代码加入到 README 中即可：
-
-``` html
-<a href="https://github.com/d2-projects/d2-admin" target="_blank"><img src="https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/d2-admin@2x.png" width="200"></a>
-```
-
-同时您可以将您的项目汇报给我们，优秀项目我们会放置在 D2Admin 相关位置并帮助您宣传。
-
-## 加入我们
-
-D2Admin 是完全开源免费的项目，旨在帮助开发者更方便地进行管理系统开发，同时也提供 2000 人的 QQ 交流群和微信群，前后端的朋友可以相互答疑，项目组成员全部在内，所有 D2 相关项目使用问题欢迎在群内提问。
-
-![join](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/join@2x.png)
-
-## 重要贡献者
-
-* [@FairyEver](https://github.com/FairyEver)
-* [@sunhaoxiang](https://github.com/sunhaoxiang)
-* [@Aysnine](https://github.com/Aysnine)
-* [@han-feng](https://github.com/han-feng)
-* [@rongxingsun](https://github.com/rongxingsun)
-* [@dnyz520](https://github.com/dnyz520)
-
-## License
-
-[MIT](https://github.com/d2-projects/d2-admin/blob/master/LICENSE)
-
-Copyright (c) 2018-present FairyEver
-
-![](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/give-a-star@2x.png)
