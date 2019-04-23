@@ -16,7 +16,7 @@ export default {
     // { path: 'wzadjcd', name: `${pre}wzadjcd`, component: _import('wazgz/wzadjcd'), meta: { ...meta, title: '多级菜单' } },
     { path: 'store/page', name: `${pre}store-page`, component: _import('rybt/store/page'), meta: { ...meta, cache: true, title: '多标签页控制' } },
     { path: 'store/menu', name: `${pre}store-menu`, component: _import('rybt/store/menu'), meta: { ...meta, title: '菜单控制' } },
-    { path: 'store/size', name: `${pre}store-size`, component: _import('rybt/store/size'), meta: { ...meta, title: '人员查看' } },
+    { path: 'store/size', name: `${pre}store-size`, component: _import('rybt/store/size'), meta: { ...meta, title: '用户管理' } },
     // { path: 'plugins/export', name: `${pre}plugins-export`, component: _import('rybt/servicehistory/export/table.vue'), meta: { ...meta, title: '历史服务' } },
     { path: 'store/ua', name: `${pre}store-ua`, component: _import('rybt/store/ua'), meta: { ...meta, title: '浏览器信息' } },
     { path: 'store/gray', name: `${pre}store-gray`, component: _import('rybt/store/gray'), meta: { ...meta, title: '灰度模式' } },

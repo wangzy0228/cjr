@@ -1,22 +1,3 @@
-![banner](https://raw.githubusercontent.com/FairyEver/d2-admin/master/doc/image/banner.png)
-
-<p align="center">
-  <a><img src="https://img.shields.io/github/release/d2-projects/d2-admin.svg"/></a>
-  <a><img src="https://img.shields.io/npm/v/@d2-admin/ice-scaffold.svg"/></a>
-  <a href="https://www.travis-ci.org/d2-projects/d2-admin"><img src="https://www.travis-ci.org/d2-projects/d2-admin.svg?branch=master"/></a>
-  <a><img src="https://img.shields.io/github/last-commit/d2-projects/d2-admin.svg"/></a>
-  <a><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"/></a>
-</p>
-
-<p align="center">
-	<a><img src="https://img.shields.io/github/issues/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/issues-closed/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/issues-pr/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/issues-pr-closed/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/forks/d2-projects/d2-admin.svg"/></a>
-	<a><img src="https://img.shields.io/github/stars/d2-projects/d2-admin.svg"/></a>
-</p>
-
 [D2Admin](https://github.com/d2-projects/d2-admin) 是一个完全 **开源免费** 的企业中后台产品前端集成方案，使用最新的前端技术栈，已经做好大部分项目前期准备工作，并且带有大量示例代码，助力管理系统敏捷开发。
 
 **中文介绍** | [English](https://github.com/d2-projects/d2-admin)

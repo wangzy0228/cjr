@@ -68,7 +68,7 @@
             <a href="#">条款</a>
           </p>
           <p class="page-login--content-footer-copyright">
-            Copyright <d2-icon name="copyright"/> 2018 D2 Projects 开源组织出品 <a href="https://github.com/FairyEver">@FairyEver</a>
+            Copyright <d2-icon name="copyright"/> 2019 前端平台 太极出品 <a href="https://github.com/FairyEver">@wangzy</a>
           </p>
         </div>
       </div>

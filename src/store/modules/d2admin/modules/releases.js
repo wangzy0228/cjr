@@ -12,7 +12,7 @@ export default {
       console.log('D2 Admin  https://github.com/d2-projects/d2-admin')
       console.log('D2 Crud   https://github.com/d2-projects/d2-crud')
       console.log('Document  https://doc.d2admin.fairyever.com/zh/')
-      console.log('请不要吝啬您的 star，谢谢 ~')
+      console.log('王志宇最帅，谢谢 ~')
     }
   }
 }
