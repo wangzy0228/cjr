@@ -108,6 +108,16 @@ export default {
         ...meta,
         title: '文婷'
       }
+    },
+    {
+      path: 'yingxiao',
+      name: `${pre}index`,
+      component: _import('homework/yingxiao'),
+      props: true,
+      meta: {
+        ...meta,
+        title: '英晓'
+      }
     }
   ])('demo-homework-')
 }

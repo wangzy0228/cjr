@@ -67,6 +67,13 @@ export default {
         children: [
             { path: `${pre}yongwt`, title: '雍文婷' }
         ]
+    },
+    {
+        title: '英晓',
+        icon: 'dashboard',
+        children: [
+            { path: `${pre}yingxiao`, title: '英晓' }
+        ]
     }
   ])('/homework/')
 }
