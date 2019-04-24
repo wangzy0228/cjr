@@ -118,6 +118,16 @@ export default {
         ...meta,
         title: '英晓'
       }
+    },
+    {
+      path: 'wanglikai',
+      name: `${pre}index`,
+      component: _import('homework/wanglikai'),
+      props: true,
+      meta: {
+        ...meta,
+        title: '利凯'
+      }
     }
   ])('demo-homework-')
 }
