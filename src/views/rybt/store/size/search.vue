@@ -1,43 +1,50 @@
-<template>
-  <d2-container :filename="filename" type="card">
-    <template slot="header">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item><a>燃油补贴</a></el-breadcrumb-item>
-        <el-breadcrumb-item>网上申请</el-breadcrumb-item>
-        <el-breadcrumb-item>用户1111管理</el-breadcrumb-item>
-      </el-breadcrumb>
-
-      <div>
-        <Search1 style="margin-top: 30px;"></Search1>
-      </div>
-    </template>
-    <div style="height: 550px; margin: -16px;">
-      <SplitPane :min-percent='20' :default-percent='20' split="vertical" >
-        <template slot="paneL">
-          <div style="margin: 10px;">
-            <el-input placeholder="输入关键字进行过滤" v-model="filterText"></el-input>
-          </div>
-          <div style="height: 470px; overflow-x: auto;overflow-y: auto; width: 240px;">
-            <el-tree
-                    class="filter-tree"
-                    :data="data2"
-                    show-checkbox
-                    node-key="id"
-                    default-expand-all
-                    :filter-node-method="filterNode"
-                    :default-checked-keys="[5]"
-                    :props="defaultProps"
-                    ref="tree2" style="width: 500px;">
-            </el-tree>
-          </div>
-        </template>
-        <template slot="paneR">
-          <Table1></Table1>
-        </template>
-      </SplitPane>
-    </div>
-  </d2-container>
+<template >
+  <el-form ref="form" :model="form" label-width="80px" :inline="true">
+    <el-form-item label="账号">
+      <el-input v-model="form.name" @focus="changeInnerDialog" ></el-input>
+    </el-form-item>
+    <el-form-item label="姓名">
+      <el-input v-model="form.name" @focus="changeInnerDialog" ></el-input>
+    </el-form-item>
+    <el-form-item label="注册时间">
+      <el-col :span="11">
+        <el-date-picker type="date" placeholder="选择日期" v-model="form.date1" style="width: 100%;"></el-date-picker>
+      </el-col>
+      <el-col class="line" :span="2">-</el-col>
+      <el-col :span="11">
+        <el-date-picker type="date" placeholder="选择日期" v-model="form.date2" style="width: 100%;"></el-date-picker>
+      </el-col>
+    </el-form-item>
+    <el-form-item label="部门">
+      <el-input v-model="form.name" @focus="changeInnerDialog" ></el-input>
+    </el-form-item>
+    <el-form-item label="电子邮箱">
+      <el-input v-model="form.name" @focus="changeInnerDialog" ></el-input>
+    </el-form-item>
+    <el-form-item label="修改时间">
+      <el-col :span="11">
+        <el-date-picker type="date" placeholder="选择日期" v-model="form.date1" style="width: 100%;"></el-date-picker>
+      </el-col>
+      <el-col class="line" :span="2">-</el-col>
+      <el-col :span="11">
+        <el-date-picker type="date" placeholder="选择日期" v-model="form.date2" style="width: 100%;"></el-date-picker>
+      </el-col>
+    </el-form-item>
+    <el-form-item label="手机">
+      <el-input v-model="form.name" @focus="changeInnerDialog" ></el-input>
+    </el-form-item>
+    <el-form-item label="状态">
+      <el-select v-model="form.region" placeholder="请选择状态" style="width: 180px;">
+        <el-option label="启用" value="shanghai"></el-option>
+        <el-option label="停用" value="beijing"></el-option>
+      </el-select>
+    </el-form-item>
+    <el-form-item style="text-align: center">
+      <el-button type="primary" @click="onSubmit" icon="fa fa-search">搜索</el-button>
+      <el-button type="primary" @click="onSubmit" >重置</el-button>
+      <!--<el-button @click="searchVisible = false">返回</el-button>-->
+    </el-form-item>
+  </el-form>
 </template>
 
 <script>
@@ -45,8 +52,6 @@
 import line1 from '@/views/demo/charts/list/line/demo1/index.vue'
 import bar1 from '@/views/demo/charts/list/bar/demo4/index.vue'
 import table from '@/views/demo/d2-crud/demo4/index.vue'
-import search from '@/views/rybt/store/size/search.vue'
-import tree from '@/views/rybt/store/size/tree.vue'
 
     export default {
         watch: {
@@ -220,38 +225,15 @@ import tree from '@/views/rybt/store/size/tree.vue'
             filterNode(value, data) {
                 if (!value) return true;
                 return data.label.indexOf(value) !== -1;
+            },
+            onSubmit(){
+
             }
         },
         components: {
             'Line1': line1,
             'Table1': table,  //将别名demo 变成 组件 Demo
-            'Bar1': bar1,  //将别名demo 变成 组件 Demo
-            'Search1': search,  //将别名demo 变成 组件 Demo
-            'Tree1': tree  //将别名demo 变成 组件 Demo
+            'Bar1': bar1  //将别名demo 变成 组件 Demo
         }
     }
 </script>
-
-<style>
-  .d2-container-full__body{
-    padding: 0px !important;
-  }
-  .d2-crud-body{
-    padding: 0px !important;
-  }
-  .el-dialog__body{
-     padding-top: 10px !important;
-  }
-  .el-dialog__header{
-    /*background-color: #409EFF;*/
-  }
-  .el-form-item {
-    margin-bottom: 10px !important;
-  }
-  .el-form-item__content{
-    /*margin-left: 0px !important;*/
-  }
-  .searchForm .el-form-item__label{
-    width: 80px !important;
-  }
-</style>

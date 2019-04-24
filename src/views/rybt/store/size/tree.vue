@@ -1,44 +1,22 @@
-<template>
-  <d2-container :filename="filename" type="card">
-    <template slot="header">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item><a>燃油补贴</a></el-breadcrumb-item>
-        <el-breadcrumb-item>网上申请</el-breadcrumb-item>
-        <el-breadcrumb-item>用户1111管理</el-breadcrumb-item>
-      </el-breadcrumb>
-
-      <div>
-        <Search1 style="margin-top: 30px;"></Search1>
-      </div>
-    </template>
-    <div style="height: 550px; margin: -16px;">
-      <SplitPane :min-percent='20' :default-percent='20' split="vertical" >
-        <template slot="paneL">
-          <div style="margin: 10px;">
-            <el-input placeholder="输入关键字进行过滤" v-model="filterText"></el-input>
-          </div>
-          <div style="height: 470px; overflow-x: auto;overflow-y: auto; width: 240px;">
-            <el-tree
-                    class="filter-tree"
-                    :data="data2"
-                    show-checkbox
-                    node-key="id"
-                    default-expand-all
-                    :filter-node-method="filterNode"
-                    :default-checked-keys="[5]"
-                    :props="defaultProps"
-                    ref="tree2" style="width: 500px;">
-            </el-tree>
-          </div>
-        </template>
-        <template slot="paneR">
-          <Table1></Table1>
-        </template>
-      </SplitPane>
-    </div>
-  </d2-container>
-</template>
+<!--<template>-->
+<!--<template slot="paneL">-->
+  <div style="margin: 10px;">
+    <el-input placeholder="输入关键字进行过滤" v-model="filterText"></el-input>
+  </div>
+  <div style="height: 470px; overflow-x: auto;overflow-y: auto; width: 240px;">
+    <el-tree
+            class="filter-tree"
+            :data="data2"
+            show-checkbox
+            node-key="id"
+            default-expand-all
+            :filter-node-method="filterNode"
+            :default-checked-keys="[5]"
+            :props="defaultProps"
+            ref="tree2" style="width: 500px;">
+    </el-tree>
+  </div>
+<!--</template>-->
 
 <script>
 /* eslint-disable */
@@ -46,7 +24,6 @@ import line1 from '@/views/demo/charts/list/line/demo1/index.vue'
 import bar1 from '@/views/demo/charts/list/bar/demo4/index.vue'
 import table from '@/views/demo/d2-crud/demo4/index.vue'
 import search from '@/views/rybt/store/size/search.vue'
-import tree from '@/views/rybt/store/size/tree.vue'
 
     export default {
         watch: {
@@ -226,8 +203,7 @@ import tree from '@/views/rybt/store/size/tree.vue'
             'Line1': line1,
             'Table1': table,  //将别名demo 变成 组件 Demo
             'Bar1': bar1,  //将别名demo 变成 组件 Demo
-            'Search1': search,  //将别名demo 变成 组件 Demo
-            'Tree1': tree  //将别名demo 变成 组件 Demo
+            'Search1': search  //将别名demo 变成 组件 Demo
         }
     }
 </script>
