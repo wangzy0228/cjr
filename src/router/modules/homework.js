@@ -98,6 +98,16 @@ export default {
         ...meta,
         title: '文强'
       }
+    },
+    {
+      path: 'yongwt',
+      name: `${pre}index`,
+      component: _import('homework/yongwt'),
+      props: true,
+      meta: {
+        ...meta,
+        title: '文婷'
+      }
     }
   ])('demo-homework-')
 }
