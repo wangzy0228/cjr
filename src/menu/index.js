@@ -22,6 +22,8 @@ import demoYgjy from './modules/demo-ygjy'
 import demoWzagz from './modules/demo-wzagz'
 // 燃油补贴
 import demoRybt from './modules/demo-rybt'
+// 燃油补贴
+import homewok from './modules/demo-homework'
 
 // 菜单 侧边栏
 export const menuAside = [
@@ -35,8 +37,9 @@ export const menuAside = [
   demoD2Crud,
   demoFrame,
   demoYgjy,
-  demoWzagz,
-  demoRybt
+  // demoWzagz,
+  demoRybt,
+  homewok
 ]
 
 // 菜单 顶栏
@@ -74,6 +77,7 @@ export const menuHeader = [
   demoPlayground,
   demoBusiness,
   demoYgjy,
-  demoWzagz,
-  demoRybt
+  // demoWzagz,
+  demoRybt,
+  homewok
 ]

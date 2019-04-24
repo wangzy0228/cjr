@@ -8,8 +8,9 @@ import element from './modules/element'
 import filters from './modules/filters'
 import business from './modules/business'
 import ygjy from './modules/ygjy'
-import wzagz from './modules/wzagz'
+// import wzagz from './modules/wzagz'
 import rybt from './modules/rybt'
+import homework from './modules/homework'
 
 import layoutHeaderAside from '@/layout/header-aside'
 
@@ -70,8 +71,9 @@ const frameIn = [
   filters,
   business,
   ygjy,
-  wzagz,
-  rybt
+  // wzagz,
+  rybt,
+  homework
 ]
 
 /**
