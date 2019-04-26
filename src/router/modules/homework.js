@@ -128,6 +128,16 @@ export default {
         ...meta,
         title: '利凯'
       }
+    },
+    {
+      path: 'guoyuanquan',
+      name: `${pre}index`,
+      component: _import('homework/guoyuanquan'),
+      props: true,
+      meta: {
+        ...meta,
+        title: '渊泉'
+      }
     }
   ])('demo-homework-')
 }
